@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestTemplate {
 	
-	@GetMapping()
+	@GetMapping("/test")
 	String getName(){
 		return "Welcome Navin..!! you are ready with your Azure project with CI/CD ";
 	}
