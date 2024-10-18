@@ -14,7 +14,7 @@ public class RestTemplate {
 
 	
 
-	@GetMapping("/welcome/{name}")
+	@GetMapping("/welcome/{NAME}")
 	String getName(@PathVariable String name){
 //		return "Welcome "+name+"..!! you are ready with your Azure project with CI/CD ";
 		return String.format("Welcome %s ..! Finally you did it Congratulations ..!!!! hurray...:)", name);
